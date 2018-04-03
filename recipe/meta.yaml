@@ -35,6 +35,9 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: Python interface YARN
+  description: |
+    The knit library provides a Python interface to Scala for interacting with
+    the YARN resource manager.
 
 extra:
   recipe-maintainers:

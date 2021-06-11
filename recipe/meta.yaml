@@ -12,7 +12,8 @@ source:
 
 build:
   number: 0
-  skip: True  # [not linux64]
+  # see maven for why we omit it
+  skip: True  # [not linux64 and not (linux and aarch64)]
 
 requirements:
     host:
